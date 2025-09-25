@@ -1,0 +1,10 @@
+{
+    "name": "GP4",
+    "urdf": "gp4/gp4_spherized.urdf",
+    "srdf": "gp4/gp4.srdf",
+    "end_effector": "link_tool",
+    "resolution": 32,
+    "template": "templates/fk_template.hh",
+    "subtemplates": [{"name": "ccfk", "template": "templates/ccfk_template.hh"}],
+    "output": "gp4_fk.hh"
+}
