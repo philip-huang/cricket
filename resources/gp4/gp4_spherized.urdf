@@ -441,7 +441,7 @@
 		<child link="link_3"></child>
 		<origin xyz="0 0 0.260" rpy="0 0 0"></origin>
 		<axis xyz="0 -1 0"></axis>
-		<limit effort="200" lower="-1.1344640137963142" upper="3.490658503988659" velocity="2"></limit>
+		<limit effort="200" lower="-0.99" upper="3.30" velocity="2"></limit>
 	</joint>
 	<joint name="joint_4" type="revolute">
 		<parent link="link_3"></parent>
